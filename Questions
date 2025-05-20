@@ -1,0 +1,69 @@
+All the Software Engineering lifecycle and crosscutting skills must be applied to engineer safe or secure software. True or False?
+    a.    True
+    b.    False
+################################################################################################################################################################################################################################################
+Identify the term defined as "the undesired effect observed in the systems delivered service"
+    a. Error
+    b. Fault
+    c. Failure
+    d. Validation
+    e. Verification
+################################################################################################################################################################################################################################################
+Which of the following are identified Software Design Principles? Select all answers that apply.
+    a. Abstraction
+    b. Coupling and Cohesion
+    c. Decomposition and modularization
+    d. Encapsulation and information hiding
+    e. Separation of concerns
+    f. Separation of interface and implementation
+    g. Sufficiency, completeness, and primitiveness
+################################################################################################################################################################################################################################################
+Identify common layers of requirements and the traceability between them.
+    a. Stakeholder ← System ← System Architecture ← System Element ← Software
+    b. Stakeholder ← System ← Software Element ← Software ← System Element
+    c. System → Stakeholder → Software
+################################################################################################################################################################################################################################################
+Which of the following statements are identified as true? Select all answers that apply.
+    a. Software quality assurance is not testing.
+    b. Software quality is achieved by conformance to all requirements regardless of what characteristic is specified or how requirements are grouped or named.
+    c. Software quality is independent of requirements.
+    d. Software requirements define the required quality attributes of the software.
+    e. Stakeholder value is expressed in requirements.
+################################################################################################################################################################################################################################################
+Which of the following are recognized practical considerations in applying software processes? Select all answers that apply.
+    a. Software life cycle models that specify discrete software processes, with rigorously specified entry and exit criteria and prescribed boundaries and interfaces, should be recognized as idealizations that must be adapted to reflect the realities of software development and maintenance.
+    b. Software processes can be adapted to facilitate operation, support, maintenance, migration, and retirement of the software.
+    c. Software processes and activities are often interleaved, overlapped, and applied concurrently.
+    d. Defining and tailoring a life cycle model must consider the nature of the work and the application domain
+    e. Defining and tailoring a life cycle model must consider organizational maturity and competencies.
+    f. Defining and tailoring a life cycle model must consider the criticality of the software product.
+    g. Defining and tailoring a life cycle model must consider customer demands.
+    h. Defining and tailoring a life cycle model must consider conformance to standards, directives, and policies.
+################################################################################################################################################################################################################################################
+What is the name of the publication that describes generally accepted knowledge about software engineering and is also known as ISO Technical Report 19759?
+    a. CC2020: Computing Curricula 2020
+    b. SEBOK: Guide to the System Engineering Body of Knowledge
+    c. SEVOCAB: ISO/IEC/IEEE Systems and Software Engineering Vocabulary
+    d. SWEBOK: Guide to the Software Engineering Body of Knowledge
+    e. SWECOM: Software Engineering Competency Model
+################################################################################################################################################################################################################################################
+Which of the following concepts are identified as Software Construction fundamentals? Select all answers that apply.
+    a. Anticipating change
+    b. Constructing for verification
+    c. IDEs
+    d. Minimizing complexity
+    e. Reuse
+    f. Standards in construction
+################################################################################################################################################################################################################################################
+Which organization was identified as publishing the reports covering undergraduate programs in computer science and software engineering?
+    a. ACM: Association for Computing Machinery
+    b. IEEE: Institute of Electrical and Electronics Engineers
+    c. IEEE-CS: Institute of Electrical and Electronics Engineers Computer Society
+    d. INCOSE: International Council on Systems Engineering
+    e. SEI: Software Engineering Institute
+################################################################################################################################################################################################################################################
+Which of the following is an SSPL? There is only one correct answer.
+    a. A set of software-intensive systems that share a common, managed set of features
+    b. A set of software-intensive systems that satisfy the specific needs of a particular market segment or mission
+    c. A set of software-intensive systems that are developed from a common set of core assets in a prescribed way
+    d. A. and B. and C.
