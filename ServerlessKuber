@@ -1,0 +1,49 @@
+Why are functions easier to manage than Kubernetes Pods?
+Select all answers that apply
+    a. Isomorphic - can be managed in the same way
+    b. Stateless - no need to worry about data
+    c. Code generation - templates remove duplication
+    d. Configuration - you can configure any setting with YAML files or Helm charts
+########################################################################################################################################
+What advantages does an asynchronous invocation have over a direct invocation?
+    a.    The requests can be processed in parallel
+    b.    A callback URL can be set to receive the result when ready
+    c.    The user doesn’t have to wait for the completion of the invocation
+    d.    It is easier to process large sets of data
+    e.    All of the above
+########################################################################################################################################
+When is TLS not required for the OpenFaaS Gateway?
+    a.    When accessing them via “kubectl port-forward”
+    b.    When they are not exposed on the public Internet
+    c.    During local development on your laptop
+    d.    All of the above
+########################################################################################################################################
+What are some benefits of cloud-based serverless?
+Select all answers that apply
+    a. Pay only for usage
+    b. High levels of concurrency
+    c. Tight integration with the other products offered by cloud providers
+    d. None of the above
+########################################################################################################################################
+What are some benefits of open-source serverless functions?
+    a.    Owning your data
+    b.    Hosting wherever you like
+    c.    Running any code that can be packaged as a container
+    d.    Portability between clouds
+    e.    All of the above
+########################################################################################################################################
+How can you troubleshoot your functions?
+    a.    Check the logs of functions using "faas-cli logs"
+    b.    Find out if there are failing events with "kubectl get events"
+    c.    Check the Prometheus logs for non-200 HTTP codes
+    d.    Check your code for syntax errors
+    e.    All of the above
+########################################################################################################################################
+What triggers are available for OpenFaaS?
+Select all answers that apply
+    a. Only HTTP
+    b. HTTP
+    c. NATS
+    d. Minio/S3
+    e. MQTT
+    f. Custom triggers built with connector-sdk
