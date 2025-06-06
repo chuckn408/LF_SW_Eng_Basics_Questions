@@ -1,0 +1,83 @@
+When was WebAssembly developed?
+    a.    1980s
+    b.    1990s
+    c.    2000s
+    d.    2010s
+###########################################################################################################################################################
+What is asm.js?
+    a.    A derivative of C++
+    b.    A subset of JavaScript
+    c.    An internet protocol
+    d.    A 3D library for JavaScript
+###########################################################################################################################################################
+In what format is WebAssembly typically delivered to the browser?
+    a.    JSON
+    b.    WebAssembly Text Format
+    c.    Intermediate language
+    d.    Binary
+###########################################################################################################################################################
+Which of the following statements is TRUE?
+    a.    WebAssembly has no built in I/O capabilities
+    b.    WebAssembly can access Web APIs
+    c.    WebAssembly supports arrays
+    d.    WebAssembly will ultimately replace JavaScript
+###########################################################################################################################################################
+What is the name of the organization that is promoting the use of WebAssembly beyond the browser?
+    a.    WebAssembly Partnership
+    b.    WebAssembly Alliance
+    c.    Bytecode Partnership
+    d.    Bytecode Alliance
+###########################################################################################################################################################
+Which of the statements below BEST describes a challenge with JavaScript that WebAssembly addresses?
+    a.    It does not have a well defined type system
+    b.    Its performance is not consistent
+    c.    Different browsers support different versions of JavaScript
+    d.    It does not run on non-web platforms
+###########################################################################################################################################################
+Which was NOT a design goal of WebAssembly?
+    a.    Minimum viable product
+    b.    Security
+    c.    Memory 64
+    d.    Performance
+###########################################################################################################################################################
+What is the primary mechanism for ensuring WebAssembly security?
+    a.    Sandboxed execution
+    b.    Module signing
+    c.    It has a built in security API
+    d.    WebAssembly code is obfuscated
+###########################################################################################################################################################
+Which of these is NOT a proposed future WebAssembly feature?
+    a.    Garbage collection
+    b.    Multiple memories
+    c.    3D engine
+    d.    Threads
+###########################################################################################################################################################
+Which of these statements correctly describes the WebAssembly type system?
+    a.    It has 4 numeric types, two integer, two floating point
+    b.    It supports numeric types, booleans and strings
+    c.    It has a dynamic and extensible type system
+    d.    It only supports integer types
+###########################################################################################################################################################
+What term was used to describe Macromedia Flash and Silverlight?
+    a.    Plug-ins
+    b.    Add-ons
+    c.    Upgrades
+    d.    Widgets
+###########################################################################################################################################################
+Which of these tools is used to compile C++ to WebAssembly?
+    a.    asm.js
+    b.    Blazor
+    c.    Emscripten
+    d.    Rust
+###########################################################################################################################################################
+What issue with Serverless computing does WebAssembly resolve?
+    a.    Cold-start times
+    b.    Throughput
+    c.    Concurrency limits
+    d.    Useability
+###########################################################################################################################################################
+Which of the following languages was designed specifically for WebAssembly?
+    a.    C++
+    b.    C#
+    c.    AssemblyScript
+    d.    JavaScript
