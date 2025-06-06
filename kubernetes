@@ -1,0 +1,172 @@
+Which of the following projects are managed under the CNCF umbrella?
+Select all answers that apply.
+    a. Prometheus
+    b. Linkerd
+    c. OpenTelemetry
+    d. linux-container
+##############################################################################################################################################################
+Once an object is created, which field displays the object's current state?
+    a.    config
+    b.    current
+    c.    spec
+    d.    status
+##############################################################################################################################################################
+There is a Kubernetes service type which does not receive a ClusterIP.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+While storing values, Secrets encrypt data.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+How can we achieve Service Discovery in Kubernetes?
+    a.    Environment variable
+    b.    DNS add-ons
+    c.    Environment variables and DNS add-ons
+    d.    None of the above
+##############################################################################################################################################################
+Kubernetes assigns the IP address defined with the ExternalIP service to a node. 
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+While exposing a Service using LoadBalancer, ________________. 
+Select all answers that apply.
+    a. A ClusterIP is assigned to the service
+    b. The service is exposed at a static port on all the Worker Nodes
+    c. A load balancer is configured automatically using the underlying cloud infrastructure
+    d. The Port is opened only on the nodes where Pods are running for the respective service
+##############################################################################################################################################################
+A Service can be associated with multiple Endpoints.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+Creating a PersistentVolumeClaim means that the Volume is mounted automatically inside a Pod.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+What does a Deployment automatically create?
+    a.    Replica Controller
+    b.    ReplicaSet and Pod
+    c.    Volumes and Claims
+    d.    None of the above
+##############################################################################################################################################################
+A DaemonSet controller schedules multiple instances of its Pod on each cluster node.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+A DaemonSet controller schedules multiple instances of its Pod on each cluster node.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+Which of the following are components of the Worker node?
+Select all answers that apply.
+    a. container runtime
+    b. kube-proxy
+    c. kubelet
+    d. serverlet
+##############################################################################################################################################################
+Which of the following projects has inspired Kubernetes?
+    a.    Docker Swarm
+    b.    Borg
+    c.    ZFS
+    d.    Raft
+##############################################################################################################################################################
+Which Control Plane Node component is watched by the 'kube-proxy' of each Worker Node for services and endpoints?
+    a.    API Server
+    b.    Controller Manager
+    c.    Scheduler
+    d.    All of the above
+##############################################################################################################################################################
+Containers of a Pod can be scheduled on different nodes.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+What is the smallest Kubernetes workload object?
+    a.    Container
+    b.    ReplicaSet
+    c.    Namespace
+    d.    Pod
+##############################################################################################################################################################
+While exposing a Service using NodePort, ___________. 
+Select all answers that apply.
+    a. A ClusterIP is assigned to the service
+    b. A Load Balancer is configured automatically, using the underlying cloud infrastructure
+    c. The service is exposed at a static port on all the Worker Nodes
+    d. The port is opened only on the nodes where Pods are running for the respective service
+##############################################################################################################################################################
+We can assign more than one label to an object.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+A pod can self-heal.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+What is etcd?
+    a.    NoSQL database
+    b.    Relational database
+    c.    Distributed key-value store
+    d.    Graph database
+##############################################################################################################################################################
+Which file format we generally use to send an object's creation details to the API Server?
+    a.    XML
+    b.    UML
+    c.    YAML
+    d.    Plain text
+##############################################################################################################################################################
+On what kind of environment can Kubernetes be installed?
+    a.    VMs
+    b.    Bare Metal
+    c.    Cloud infrastructure
+    d.    All of the above
+##############################################################################################################################################################
+The record is a valuable option to users when performing Deployment rolling updates and rollbacks.
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+Which networking model is used by Kubernetes?
+    a.    Container Network Interface (CNI)
+    b.    Container Network Model (CNM)
+    c.    Both CNI and CNM
+    d.    None of the above
+##############################################################################################################################################################
+What resources can containers share inside a Pod?
+Select all answers that apply.
+    a. Same IP address
+    b. Same name
+    c. Volumes
+    d. None of the above
+##############################################################################################################################################################
+What do we define with the apiVersion field in the object's configuration file?
+    a.    API endpoint to connect to the API server
+    b.    Object name
+    c.    Object type
+    d.    None of the above
+##############################################################################################################################################################
+What type of selectors can we use with ReplicaSets?
+    a.    Equality-based selectors
+    b.    Set-based selectors
+    c.    Both equality-based selectors and set-based selectors
+    d.    None of the above
+##############################################################################################################################################################
+While creating a PersistentVolumeClaim, a user can specify the size and access mode. 
+True or False?
+    a.    True
+    b.    False
+##############################################################################################################################################################
+Which of the following can be an argument to the kubectl create -f command?
+    a.    YAML manifest with object definition
+    b.    Pod name
+    c.    XML file with object definition
+    d    UML file with object definition
