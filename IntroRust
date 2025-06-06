@@ -1,0 +1,55 @@
+Rustls is a TLS library built in Rust that manages secure handshakes and encrypts data using modern cryptographic algorithms like AES-GCM and ChaCha20-Poly1305.
+True or False?
+    a.    True
+    b.    False
+############################################################################################################################################################
+What does the Rust compiler (rustc) primarily help with during development?
+    a.    Managing package dependencies
+    b.    Formatting code according to style guidelines
+    c.    Flagging syntax and type-related errors at compile time
+    d.    Running integration tests in production environments
+############################################################################################################################################################
+Which of the following best describes the role of Cargo in the Rust ecosystem?
+    a.    It is Rust’s code linter that checks for syntax errors
+    b.    It is the official Rust plugin for Visual Studio Code
+    c.    It is a runtime environment for executing compiled Rust programs
+    d.    It is Rust’s package manager that handles dependencies, builds, tests, and documentation
+############################################################################################################################################################
+Which of the following best describes the purpose of Rust's ownership system?
+    a.    It allows multiple variables to freely share data for performance
+    b.    It ensures that each piece of data has one owner, and memory is automatically freed when the owner is no longer in use
+    c.    It requires manual memory allocation and deallocation by the programmer
+    d.    It relies on a garbage collector to manage memory in the background
+############################################################################################################################################################
+Rust's borrow checker enforces data access rules at runtime to prevent concurrency issues like data races and deadlocks.
+True or False?
+    a.    True
+    b.    False
+############################################################################################################################################################
+In Rust, reserved keywords are currently unused but are blocked from use in code to prevent future conflicts.
+True or False?
+    a.    True
+    b.    False
+############################################################################################################################################################
+Which of the following Cargo subcommands is used to generate HTML documentation for your Rust project?
+    a.    cargo build
+    b.    cargo test
+    c.    cargo publish
+    d.    cargo doc
+############################################################################################################################################################
+Which of the following best explains why Rust is considered a high-performance language?
+    a.    It uses a garbage collector to handle memory automatically at runtim
+    b.    It prioritizes simplicity over control of hardware or memory
+    c.    It provides low-level control and zero-cost abstractions that do not compromise speed
+    d.    It runs exclusively on embedded systems to reduce overhead
+############################################################################################################################################################
+The Rust tool rustfmt is mainly used to identify runtime errors in your code.
+True or False?
+    a.    True
+    b.    False
+############################################################################################################################################################
+What role does Rust's ownership model play in ensuring safe concurrent programming?
+    a.    It guarantees that only one part of the program can mutate data at any given time
+    b.    It enforces manual memory management to avoid data races
+    c.    It locks data during thread execution using a runtime garbage collector
+    d.    It allows multiple threads to modify shared data without restriction
