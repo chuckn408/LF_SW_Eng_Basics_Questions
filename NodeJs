@@ -1,0 +1,50 @@
+What protocol does the TCP-like WebSocket protocol sit directly on top of?
+    a.    TCP
+    b.    UDP
+    c.    HTTP
+###########################################################################################################################################################
+What are mock services good for?
+    a.    Preparing services for deployment as a final step in a CI pipeline
+    b.    Creating a local service in lieu of a production service which isn't available for development purposes
+    c.    Supplying staging environment functionality
+###########################################################################################################################################################
+What is the ecosystem enquirer package good for?
+    a.    Creating complex prompts as part of a Terminal User Interface
+    b.    Directly styling pieces of text in the terminal
+    c.    Making HTTP requests
+###########################################################################################################################################################
+Async generator functions can be a useful pattern for real-time programming. What's the difference between an async generator function and an async function?
+    a.    They're the same thing
+    b.    Async functions return promises, async generator functions return async iterables
+    c.    Async functions return async iterables, async generator functions return promises
+###########################################################################################################################################################
+When a web app is served locally, and a mock service is served from a different port, how do we avoid Cross-Origin Request Blocked errors in the browser from preventing the client from accessing a mock service?
+    a.    Ensure the service is configured to a less strict origin policy via the relevant CORS HTTP header
+    b.    Configure the browser settings to disable Cross-Origin request blocking
+    c.    There's nothing that can be done, the only solution is to serve everything on the same port
+###########################################################################################################################################################
+For the purposes of mocking functionality, mock services can implement in ways that are not recommended for production services. 
+Which of the following qualities can a mock service have that a production Node.js service should NOT have?
+    a.    Statefulness
+    b.    A database
+    c.    Logging
+###########################################################################################################################################################
+When setting up Node, which is the most ideal approach?
+    a.    Use the official installer from the nodejs.org website
+    b.    Use a version manager such as nvm or nvs
+    c.    Use an operating system package manager
+###########################################################################################################################################################
+What's the most important factor in determining whether to use a module?
+    a.    Download stats
+    b.    Package quality
+    c.    GitHub stars
+###########################################################################################################################################################
+What field of a project's package.json do we need to configure in order to provide a command that executes a CLI?
+    a.    The scripts field
+    b.    The bin field
+    c.    The type field
+###########################################################################################################################################################
+What is npm?
+    a.    The package manager for Node
+    b.    A compiler for Node.js
+    c.    A visual editor for Node.js
