@@ -1,0 +1,153 @@
+Kubeflow notebooks are described as a "lab-as-a-service". What does this term imply?
+    a.    They offer a fixed set of resources based on predetermined sizes that cannot be changed.
+    b.    They are primarily used for chemical experiments.
+    c.    They are used for physical laboratory management.
+    d.    They provide on-demand resources and environments for data science teams.
+#########################################################################################################################################################
+Imagine you're leading a data science team at a healthcare analytics company. Your project aims to develop and deploy machine learning models that predict
+patient health outcomes based on historical health data. The models are complex, requiring substantial computational resources for training, and need to 
+be served efficiently to handle real-time prediction requests from hospitals and clinics.
+You face several challenges in your project:
+    Resource-Intensive Model Training: The models require training on vast and sensitive healthcare datasets, necessitating efficient job scheduling and 
+resource management to minimize costs and training time.  High-Availability Model Serving: The models must be served with minimal latency and high 
+availability to ensure that healthcare providers can access real-time predictive insights that affect patient care decisions.  Dynamic Model Updating: 
+Healthcare regulations and guidelines frequently change, necessitating the models to be updated regularly without causing downtime or service disruption.
+Question:
+Given the challenges above, which combination of tools and strategies would best address the needs of your healthcare analytics project?
+    a.    Utilize only Kubernetes native scheduling for training jobs and deploy models using a custom Flask application for serving.
+    b.    Deploy models statically on dedicated servers and manually update models via SSH when regulations change.
+    c.    Rely on external cloud-based AutoML services for model training and serving, bypassing the need for Kubernetes-based solutions.
+    d.    Implement Volcano for batch job scheduling, use KServe for model serving, and manage model updates through Kubeflow Pipelines.
+#########################################################################################################################################################
+As your machine learning project on user behavior prediction expands, you're reaching the limits of what Kubeflow Notebooks can manage comfortably. With
+the data volume ballooning and model intricacies increasing, you're at a crossroads on efficiently scaling your computational firepower and streamlining
+the management process. You're keen on leveraging the Kubeflow ecosystem further to keep your project on the cutting edge without drowning in operational
+complexity.
+Question:
+Given this scenario, which tools within the Kubeflow ecosystem BEST support your project's next growth phase?
+    a.    Stick primarily with Kubeflow Notebooks, adding more notebooks as needed to parallelize the workload manually.
+    b.    Adopt distributed machine learning frameworks for scalable model training and leverage the Kubeflow Training Operator to simplify the deployment
+and management of these frameworks across your Kubernetes infrastructure.
+    c.    Utilize the Kubeflow Pipelines for all computational tasks, including model training, data preprocessing, and deployment, expecting it to 
+automatically handle the distributed computing needs.
+    d.    Rely on Kubeflow's TensorBoards for detailed performance analytics, expecting it to optimize and scale your model training processes automatically.
+#########################################################################################################################################################
+Which of the following statements best define scalability, reliability, and performance?
+    a.    Scalability is the speed at which a system operates, reliability is the system's ability to scale with demand, and performance is the system's
+resilience to failures.
+    b.    Scalability is the system's ability to handle failures, reliability measures the efficiency of operations, and performance is the capacity for
+growth.
+    c.    Scalability is the system's operational speed, reliability is the cost-effectiveness of the system's growth, and performance is the system's
+ability to recover from failures.
+    d.    Scalability is the capability of a system to handle an increasing amount of work or its potential to accommodate growth, reliability is the 
+resilience of a system to failures to prevent the loss of work and ensure the availability of systems, and performance measures how efficiently a 
+system can handle tasks and operations, affecting speed and responsiveness.
+#########################################################################################################################################################
+You are leading a project that aims to automate and enhance the accuracy of financial forecasting using machine learning. The project has progressed 
+through initial development and is now facing challenges with deployment frequency, model accuracy decay over time, and the need for continuous model 
+improvement based on new financial data.
+Question:
+Considering your understanding of MLOps practices, which immediate action aligns best with MLOps principles to address these challenges effectively?
+    a.    Implement continuous integration and deployment pipelines for the model, incorporating automated retraining with new data and performance 
+monitoring.
+    b.    Pause new deployments and focus solely on improving the existing model's accuracy with the current data set.
+    c.    Shift all resources to develop a new model architecture to solve the deployment and accuracy issues.
+    d.    Outsource model management and deployment to a third-party service.
+#########################################################################################################################################################
+Which of the following is true about Katib's support for Neural Architecture Search (NAS)?
+    a.    It supports Efficient Neural Architecture Search (ENAS) and Differentiable Architecture Search (DARTS) as alpha features.
+    b.    It fully automates the design of artificial neural networks, requiring no input from data scientists.
+    c.    It can only optimize hyperparameters, not search for new architectures.
+    d.    NAS in Katib is designed to replace the need for data scientists in the model development process.
+#########################################################################################################################################################
+True or False? Hyperparameter tuning involves adjusting the model parameters that are learned during the training process to improve performance.
+    a.    True
+    b.    False
+#########################################################################################################################################################
+After developing a state-of-the-art duck detection system using unsupervised deep learning, your team has successfully segmented thousands of bird 
+images into various clusters based on features like color, size, and environment. The model has identified patterns and grouped the images accordingly,
+but the clusters are labeled numerically and lack descriptive names. To deploy this system in a birdwatching app, "Aviary Identifier," you must label 
+these clusters accurately for the end-users, birdwatching enthusiasts, to understand which bird species each cluster represents.
+Question:
+What is the best strategy for labeling these distributions so the app's users can easily navigate and benefit from your duck detection system?
+    a.    Using an expert ornithologist's to review and label a sample from each cluster providing accurate and specific bird species names.
+    b.    Implementing a primary machine learning classifier trained on a small set of labeled bird images to suggest labels for each cluster automatically.
+    c.    Organizing a community event where birdwatching enthusiasts use the app to submit their label suggestions, harnessing collective knowledge.
+    d.    Applying a generic animal recognition model to automatically label clusters, relying on broad categories like 'waterfowl' or 'land birds'.
+#########################################################################################################################################################
+Which feature best describes the value that Kubeflow Pipelines add to the machine learning life cycle?
+    a.    Enabling sequential task execution, where outputs from one task can be used as inputs to another, thus automating the model training and 
+deployment process.
+    b.   Simplifying code development by automating the creation of machine learning models without human input.
+    c.    Providing a graphical interface for data scientists to interact with data without writing any code.
+    d.    Eliminating the need for containers, making machine learning tasks less dependent on infrastructure.
+#########################################################################################################################################################
+True or False? Kubeflow's primary mission has always been to provide a comprehensive and opinionated machine learning platform with little emphasis on 
+flexibility and tool choice.
+    a.    True
+    b.    False
+#########################################################################################################################################################
+True or False? Contributions are crucial for the accessibility, usability, and overall health of open source projects.
+    a.    True
+    b.    False
+#########################################################################################################################################################
+What differentiates integrated open source from the open core model?
+    a.    It relies on a single open-source project without any additions.
+    b.    It is entirely proprietary and closed-source.
+    c.    It integrates multiple open source projects using open source components, including integration mechanisms.
+    d.    It offers premium features but does not allow customization.
+#########################################################################################################################################################
+What is the main difference between DevOps and MLOps?
+    a.    DevOps focuses on software development, while MLOps only manages data.
+    b.    MLOps is a subset of DevOps practices applied explicitly to machine learning models.
+    c.    MLOps incorporates machine learning lifecycle management, including model training and deployment, which requires additional considerations 
+beyond traditional DevOps.
+    d.    DevOps engineers are not involved in the MLOps process.
+#########################################################################################################################################################
+What is the primary purpose of a model in machine learning?
+    a.    To replace any human decision-making (i.e., remove humans from the loop)
+    b.    To respond with a prediction based on learned patterns
+    c.    To store large amounts of data efficiently
+    d.    To visualize data for better user interaction
+#########################################################################################################################################################
+True or False? Adversarial AI involves intentionally serving data designed to confuse a model and force it to make incorrect decisions.
+    a.    True
+    b.    False
+#########################################################################################################################################################
+True or False? Determinism in machine learning models refers to the model's ability to predict future trends accurately.
+    a.    True
+    b.    False
+#########################################################################################################################################################
+You're part of a tech startup focused on creating an intelligent waste management system, "EcoSort," designed to automatically sort waste into 
+recyclables, organics, and garbage using machine learning. Your team has followed the model development lifecycle closely, starting from a clear problem
+definition to developing a highly accurate sorting model. As EcoSort is deployed in several pilot locations, you must choose the next step to ensure its
+ongoing success and scalability.
+Question:
+Which of the following options makes the most sense after moving your model into production?
+    a.    Increase model training frequency with new data to more accurately adapt to different waste materials.
+    b.    Start a community-driven initiative to label new waste material images to enhance the model's learning database.
+    c.    Focus on international expansion by adapting the model to different countries' waste classification standards without further optimizing the 
+current model.
+    d.    Implement real-time monitoring to track the model's performance and identify any instances of misclassification immediately.
+#########################################################################################################################################################
+What distinguishes Generic Container Components in Kubeflow Pipelines from Lightweight Python Components?
+    a.    Container Components are designed to execute simple, standalone Python scripts quickly.
+    b.    Container Components can execute code in any language packaged within a container, offering flexibility beyond Python.
+    c.    Unlike container components, lightweight Python components require external libraries to be installed during runtime for execution.
+    d.    Container Components reduce the need for task scheduling and orchestration within pipelines.
+#########################################################################################################################################################
+True or False? For effective model deployment, machine learning teams, regardless of size or need, should adopt a full suite of machine learning tools 
+from the beginning of a project.
+    a.    True
+    b.    False
+#########################################################################################################################################################
+Imagine your organization has decided to adopt Kubeflow for its machine learning workflows. You have been tasked with evaluating the best deployment 
+strategy and determining whether to use a vendor-supported distribution or the raw manifest approach. Your team has limited Kubernetes expertise and is
+looking for a solution that offers easy installation, maintenance, and strong community support. Essentially, your team needs a path to production while
+managing their team's limited Kubernetes admin, ease of installation, support requirements, and mandated community backing.
+Question:
+From the list below, which options make the most sense for your team?
+    a. Opt for a vendor-supported distribution that promises ease of installation and maintenance, even if it comes at a higher cost.
+    b. Decide to deploy Kubeflow using raw manifests and invest in Kubernetes training for your team.
+    c. Seek a non-vendor specific Kubeflow distribution known for an active community, even if it means additional learning curves.
+    d. Wait until the Kubeflow project establishes conformance standards and officially endorses certain distributions.
