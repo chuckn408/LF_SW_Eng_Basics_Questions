@@ -1,0 +1,145 @@
+Select all answers that apply. Which of the following are examples of nodes?
+    a. Controller
+    b. Executor
+    c. Agent
+    d. Stage
+###############################################################################################################################################################
+You are using Poll SCM build trigger as part of your Freestyle job, and have specified the schedule as */15 * * * *. When will a build be triggered?
+    a.    Everyday at 3 PM
+    b.    Every 15 minutes
+    c.    Once every 15 days
+    d.    Once every 15 seconds
+###############################################################################################################################################################
+ Select all answers that apply. Which of the following tasks are best suited for the Build section of a Freestyle project?
+    a. Execute shell
+    b. Build other projects
+    c. Send e-mail notifications
+    d. Invoke top-level Maven targets
+###############################################################################################################################################################
+How many builds are included in the build trend for each Jenkins project?
+    a.    All builds run in the past 24 hours
+    b.    Last 5 builds
+    c.    All builds run in the past 7 days
+    d.    Last 30 builds
+###############################################################################################################################################################
+Select all answers that apply. How can you change the default port that Jenkins listens on?
+    a. Specify Java option --httpPort on startup
+    b. Make the change in the settings file /etc/init.d/jenkins (on RPM-based systems) or /etc/default/jenkins (on Debian-based systems)
+    c. Modify firewall rules to allow the new port
+    d. All of the above
+###############################################################################################################################################################
+Which of the following is the most recommended way to set up build triggers?
+    a.    Poll SCM
+    b.    Build periodically
+    c.    Build after other projects are built
+    d.    SCM Webhooks
+###############################################################################################################################################################
+Select all answers that apply. Which of the following are valid for restricting a Jenkins job to run on a certain Agent?
+    a. Specify the actual hostname of the Agent
+    b. Specify the name of the Agent
+    c. Specify the IP address of the configured Agent
+    d. Specify a label associated with the Agent
+###############################################################################################################################################################
+True or False? Jenkins does not allow you to install and manage third-party tools required for your build.
+    a.    True
+    b.    False
+###############################################################################################################################################################
+As part of your Jenkins Pipeline, you need to run a shell script. A shell script should be added as a(n):
+    a.    Stage
+    b.    Node
+    c.    Step
+    d.    Agent
+###############################################################################################################################################################
+In a distributed set up, which of the following launch methods are used to start a Jenkins agent?
+    a.    Launch agent by connecting it to the controller
+    b.    Launch agents via SSH
+    c.    Launch agent via execution of command on the controller
+    d.    All of the above
+###############################################################################################################################################################
+Which of the following security realms is recommended for large enterprises?
+    a.    Unix user/group database
+    b.    LDAP
+    c.    Jenkins’s own user database
+    d.    Delegate to servlet container
+###############################################################################################################################################################
+What are the benefits of using Linux package managers to install Jenkins?
+    a.    Automatic creation of a Jenkins user
+    b.    Automatic creation of startup scripts
+    c.    Automatic log rotation set up
+    d.    All of the above
+###############################################################################################################################################################
+Which color code denotes that the last build was successful and a new build is in progress?
+    a.    Yellow
+    b.    Flashing blue
+    c.    Grey
+    d.    Flashing green
+###############################################################################################################################################################
+Which of the following statements best describes Continuous Delivery?
+    a.    It is an agile engineering practice which primarily focuses on automated build and test for every change committed to the version control system by the developers
+    b.    It is an automated way of deploying your releases to production
+    c.    It is a software development practice where you build software in such a way that the software can be released to production at any time
+###############################################################################################################################################################
+True or False? Freestyle job type requires a plugin to be installed.
+    a.    True
+    b.    False
+###############################################################################################################################################################
+In a distrIbuted setup, you have a Jenkins Controller and an Agent configured with a total of two executors. How many concurrent builds can you run?
+    a.    3
+    b.    4
+    c.    2
+    d.    5
+###############################################################################################################################################################
+In a Pipeline job, where can you add the post-build actions?
+    a.    As a step in the last stage of the pipeline
+    b.    Within the post section at the end of the pipeline
+    c.    As a step in every single stage of the pipeline
+    d.    As a post task at the end of the stage
+###############################################################################################################################################################
+Which subpage under the Manage Jenkins section lets you handle configuration left behind by uninstalled plugins?
+    a.    View and purge unwanted data from Manage Plugins page
+    b.    View and purge the wanted data on the Manage Old Data page
+    c.    View and purge unwanted data from Global Tool Configuration page
+    d.    None of the above
+###############################################################################################################################################################
+There are a few agents who are behind a firewall. Given this scenario, how can you connect these as Jenkins Agents? 
+    a.    Using the SSH launch method
+    b.    Using the Launch agent by connecting it to the controller method
+    c.    Using the Launch agent via execution of command on the controller method
+    d.    It is not possible to use these as Agents
+    e.    (a) and (b)
+###############################################################################################################################################################
+Select all answers that apply. Which of the following are accepted file extensions for Jenkins plugins?
+    a. .hpi
+    b. .war
+    c. .jpi
+    d. .ear
+###############################################################################################################################################################
+Select all answers that apply. Which of the following security features are enabled by default starting with Jenkins 2.0?
+    a. LDAP
+    b. CSRF protection
+    c. Matrix-based security
+    d. Disabled JNLP port
+###############################################################################################################################################################
+Pipeline DSL (Domain Specific Language) is based on which of the following?
+    a.    Ruby
+    b.    Apache Groovy
+    c.    Go
+    d.    Java
+###############################################################################################################################################################
+Which of the following launch methods is recommended for starting Windows agents?
+    a.    Launch agent by connecting it to the controller
+    b.    Launch agents via SSH
+    c.    All of the above
+    d.    None of the above
+###############################################################################################################################################################
+What color code represents an unstable build?
+    a.    Flashing Blue/Grey
+    b.    Red
+    c.    Orange
+    d.    Grey
+###############################################################################################################################################################
+Select all answers that apply. Which of the following statements are true about Pipelines?
+    a. Pipeline DSL (Domain Specific Language) is based on Apache Groovy
+    b. Pipeline code can be stored in version control as a file called Jenkinsfile
+    c. Pipelines are only written using a declarative syntax
+    d. Pipelines provide advanced visualization capabilities
