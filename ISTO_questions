@@ -1,0 +1,219 @@
+The ingress deployment in Istio can be configured using an IngressGateway resource, while the egress deployment is configured using an EgressGateway resource.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+The endpoints are part of the routes where the traffic is sent to.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+Traffic policy can be configured in VirtualService.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+Deploying Wasm modules using WasmPlugin resource offers a safer way of deploying Wasm modules than EnvoyFilter.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+One must wait for a special invitation to join the Istio community.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+The only way to install Istio is with the Istio CLI (istioctl). 
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+How does Istio ensure that traffic in and out of a pod is intercepted by its proxy?
+Select all answers that apply
+    a. iptable rules are automatically applied inside the pod via an init container.
+    b. Istio provides a CNI plugin that configures networking inside Kubernetes accordingly.
+    c. It doesn't. Developers must retrofit their applications to call other services on the special port 15006.
+#############################################################################################################################################################
+What is Kiali?
+    a.    A special type of service mesh derived from Istio
+    b.    A distributed tracing solution, similar to Zipkin and Jaeger
+    c.    A management console for Istio service mesh
+    d.    An Istio add-on that leverages eBPF
+#############################################################################################################################################################
+When matching the traffic, we can only use the OR semantics.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+Which concept is used to describe different service versions in Istio?
+    a.    Subsets
+    b.    Service entries
+    c.    Versions
+    d.    Kubernetes service endpoints
+#############################################################################################################################################################
+Istio offers multiple installation configuration profiles. Which profile is the best suited for production deployments?
+    a.    default
+    b.    demo
+    c.    empty
+    d.    Preview
+#############################################################################################################################################################
+The Sidecar resource in Istio helps performance-tune a service mesh by:
+    a.    Configuring how much memory and CPU is allocated to each sidecar.
+    b.    Configuring what services each sidecar needs to know about.
+    c.    Configuring the frequency with which to update sidecars in the mesh.
+    d.    Specifying which services require sidecars and which do not.
+#############################################################################################################################################################
+Which field in the WasmPlugin resource can we use to specify the plugin configuration values?
+    a.    pluginConfig
+    b.    config
+    c.    vmConfig
+    d.    wasmConfig
+#############################################################################################################################################################
+How do service meshes simplify and improve observability?
+Select all answers that apply
+    a. They provide a uniform process for collecting metrics.
+    b. They reduce the burden on developers who would otherwise have to instrument their applications to expose metrics.
+    c. Developers don't have to build their own bespoke monitoring dashboards.
+    d. They don't. Service meshes are about security, not observability.
+#############################################################################################################################################################
+Istio only supports workloads that run inside Kubernetes clusters.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+Which types of authentication resources does Istio provide?
+    a.    Peer and request authentication
+    b.    JWT token and password authentication
+    c.    Peer authentication
+    d.    Multi-factor authentication and certificate-based authentication
+#############################################################################################################################################################
+After installation, Istio automatically labels the default namespace for sidecar injection.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+Only seasoned developers with expertise in the Go programming language can contribute to the Istio project.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+To deploy the Envoy proxy alongside a workload:
+Select all answers that apply
+    a. Developers have no choice but to alter their Kubernetes deployment manifests manually.
+    b. Developers can use the "istioctl kube-inject" command to transform their manifests.
+    c. Developers can label the namespace with the label "sidecar-injection=true".
+    d. Developers can label the namespace with the label "istio-injection=enabled".
+#############################################################################################################################################################
+Observability only includes metrics, while monitoring includes logs and traces.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+Outlier detection is a form of active health checking.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+How can we expose a Kubernetes service through the Istio ingress gateway?
+    a.    By configuring the Gateway and VirtualService resources, attaching the gateway to the VirtualService, and ensuring the hosts match.
+    b.    By configuring the Kubernetes service as the LoadBalancer type.
+    c.    By configuring the Gateway and VirtualService resources and attaching the VirtualService to the gateway.
+    d.    We cannot expose it using the Istio ingress gateway, we must use the IngressGateway resource.
+#############################################################################################################################################################
+When applying patches as part of the EnvoyFilter resource, we can use one of the following contexts:
+    a.    SIDECAR_INBOUND, SIDECAR_OUTBOUND, GATEWAY, or ANY
+    b.    SIDECAR or GATEWAY
+    c.    SIDECAR , INGRESS , EGRESS , or ANY
+    d.    Patches are automatically applied to all traffic directions and workload types.
+#############################################################################################################################################################
+The process of deploying an Envoy proxy alongside each workload is called:
+    a.    proxy bundling
+    b.    sidecar injection
+    c.    sidecar bundling
+    d.    proxy injection
+#############################################################################################################################################################
+How are distributed traces constructed from multiple distinct HTTP requests?
+Select all answers that apply
+    a. Workloads are pre-configured with their own distinct trace IDs, which help identify them.
+    b. Trace IDs are added to the HTTP headers and propagated by participating services.
+    c. Span IDs are added to the HTTP headers and propagated by participating services.
+#############################################################################################################################################################
+Grafana can only monitor services and workloads, but not the Istio control plane proper.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+Istio leverages a security framework for identity named:
+    a.    Istio devises its own identity framework.
+    b.    Let's encrypt free certificates for everyone, aka "lefcfe".
+    c.    Secure production identity framework for everyone, aka "SPIFFE".
+    d.    Extended x.509 certificates using SAN for everyone, aka "excuse".
+#############################################################################################################################################################
+How does Istio assign each workload a unique identity?
+    a.    Developers must retrofit their applications to make an API call to the Istio control plane with their certificate signing request.
+    b.    An istio agent running inside the pod facilitates the process of requesting a certificate from the Istio control plane and making the certificate available to the Envoy proxy.
+    c.    An istio agent running inside the pod facilitates the process of requesting a certificate from the Istio control plane and making the certificate available to the workload.
+    d.    It doesn't. Workload identity is an opt-in feature in Istio.
+#############################################################################################################################################################
+Using short service names in VirtualService is a preferred way to reference Kubernetes services.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+What is the difference between ISTIO_MUTUAL and MUTUAL TLS mode?
+    a.    ISTIO_MUTUAL requires a production Istio profile, while MUTUAL doesn’t.
+    b.    MUTUAL can be used with VM workloads, while ISTIO_MUTUAL cannot.
+    c.    ISTIO_MUTUAL uses Istio’s certificates for TLS connection, while you can provide your certificates with MUTUAL.
+    d.    There is no difference between the two.
+#############################################################################################################################################################
+What is the main annual conference event for the Istio community?
+    a.    ServiceMeshCon
+    b.    EnvoyCon
+    c.    IstioCon
+    d.    IstioMeshCon
+#############################################################################################################################################################
+When using fault injection, we must be careful not to trigger retry policies.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+How do the Envoy proxies know the target endpoints of other services in the mesh?
+    a.    Envoy periodically calls Istio to fetch a copy of the registry, which contains the addresses of endpoints.
+    b.    Envoy leverages the kube-proxy to reach target endpoints.
+    c.    Istio pushes information about clusters, routes, and endpoints to each Envoy periodically.
+    d.    Istio pushes information about clusters, routes, and endpoints each time a new service or endpoint becomes available.
+#############################################################################################################################################################
+Which resource can you use to enable strict mTLS in a namespace?
+    a.    VirtualService
+    b.    RequestAuthentication
+    c.    PeerAuthentication
+    d.    DestinationRule
+#############################################################################################################################################################
+What is the path of the Prometheus scrape endpoint exposed by Envoy?
+    a.    /stats
+    b.    /stats/prometheus
+    c.    /metrics
+    d.    /metrics/prometheus
+#############################################################################################################################################################
+Each Envoy instance can only configure one listener in the configuration.
+True/False
+    a.    True
+    b.    False
+#############################################################################################################################################################
+How can you enable authorization features in Istio?
+    a.    By deploying a PeerAuthentication resource.
+    b.    By configuring RBAC.
+    c.    By updating the Istio installation.
+    d.    There is no need to enable authorization features explicitly.
+#############################################################################################################################################################
+What does “permissive mode” allow?
+    a.    It allows services to communicate using both plaintext and TLS.
+    b.    It allows services to communicate using mTLS only.
+    c.    It allows token-based authentication between services.
+    d.    It allows deploying PeerAuthentication resources to any namespace.
+#############################################################################################################################################################
+When onboarding VMs, an east-west gateway:
+    a.    Is not strictly necessary
+    b.    Is required to relay data plane traffic between the workload running on the VM and other services
+    c.    Is required to relay control-plane traffic between the sidecar running on the VM and istiod
+    d.    Is required to relay control-plane traffic, and optionally data-plane traffic, depending on the network topology
