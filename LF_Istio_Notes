@@ -1,0 +1,82 @@
+    High availability
+    The ability to scale horizontally
+    Zero-downtime deployments and upgrades
+    Security built-in
+
+Challenges posed by the new architecture:
+Service discovery
+Load balancing
+Service call handling
+Resilience
+Security
+Programming models
+Diagnosis and troubleshooting
+Resource utilization
+Automated testing
+Traffic management 
+
+
+the basic idea behind Istio is to push microservices concerns into the infrastructure by leveraging Kubernetes.
+This is implemented by bundling the Envoy proxy as a sidecar container directly inside every Pod.
+
+
+In terms of imIn terms of implementation, Istio's main concerns are, therefore, solving the following problems:
+
+    Ensuring that each time a workload is deployed, an Envoy sidecar is deployed alongside it.
+    Ensuring traffic into and out of the application is transparently diverted through the proxy.
+    Assigning each workload a cryptographic identity as the basis for a more secure computing environment.
+    Configuring the proxies with all the information they need to handle incoming and outgoing traffic.
+plementation, Istio's main concerns are, therefore, solving the following problems:
+    Ensuring that each time a workload is deployed, an Envoy sidecar is deployed alongside it.
+    Ensuring traffic into and out of the application is transparently diverted through the proxy.
+    Assigning each workload a cryptographic identity as the basis for a more secure computing environment.
+    Configuring the proxies with all the information they need to handle incoming and outgoing traffic.
+
+
+
+
+Modifying Kubernetes deployment manifests to bundle proxies as sidecars with each pod is both a burden to
+development teams, error-prone and not maintainable.
+Part of Istio's codebase is dedicated to providing the capability to automatically modify Kubernetes 
+deployment manifests to include sidecars with each pod.
+This capability is exposed in two ways, the first and simpler mechanism is known as manual sidecar injection, 
+and the second is called automatic sidecar injection.
+
+
+Istio has a command-line interface (CLI) named istioctl with the subcommand kube-inject. The subcommand processes
+the original deployment manifest to produce a modified manifest with the sidecar container specification added to
+the pod (or pod template) specification. The modified output can then be applied to a Kubernetes cluster with
+the kubectl apply -f command.
+With manual injection, the process of altering the manifests is explicit
+
+With automatic injection, the bundling of the sidecar is made transparent to the user.
+This process relies on a Kubernetes feature known as Mutating Admission Webhooks, a mechanism that allows for
+the registration of a webhook that can intercept the application of a deployment manifest and mutate it before 
+the final, modified specification is applied to the Kubernetes cluster.
+The webhook is triggered according to a simple convention, where the application of the label 
+istio-injection=enabled to a Kubernetes namespace governs whether the webhook should modify any deployment or
+pod resource applied to that namespace to include the sidecar.
+
+
+
+
+In addition to the Envoy sidecar, the sidecar injection process injects a Kubernetes init container. This 
+init-container is a process that applies these iptables rules before the Pod containers are started.
+
+Today Istio provides two alternative mechanisms for configuring a Pod to allow Envoy to intercept requests.
+The first is the original iptables method, and the second uses a Kubernetes CNI plugin.
+
+
+In Istio, each workload is assigned an X.509 cryptographic identity that adheres to the SPIFFE 
+ The SPIFFE ID is a URL in the form spiffe://<trust domain>/<workload identifier>.
+
+
+
+
+
+
+
+
+
+
+
