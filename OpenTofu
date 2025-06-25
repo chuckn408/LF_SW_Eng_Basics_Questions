@@ -1,0 +1,44 @@
+Infrastructure as Code (IaC) is a practice in which you manage and provision your infrastructure components—such as servers, networks, and storage—using code and software development techniques rather than manually configuring hardware and systems.
+
+
+Consistency and Reliability
+Automation and Efficiency
+Version Control and Traceability
+Scalability
+Faster Recovery and Deployment
+Cost Efficiency
+Flexibility
+
+
+There are generally two approaches to IaC: declarative (functional) and imperative (procedural)
+The declarative approach describes the desired end state of the infrastructure.
+The imperative approach defines the exact steps or commands to reach the desired state.
+
+
+Popular IaC tools include OpenTofu, Terraform, Pulumi, Ansible, Chef, and more.
+
+OpenTofu is an infrastructure as code tool that lets you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share. 
+
+
+OpenTofu leverages application programming interfaces (APIs) to create and manage resources on cloud platforms and other services.
+
+Additionally, OpenTofu's application process includes monitoring and handling any issues that arise during the execution
+
+You define resources that may span multiple cloud providers and services. 
+During the planning phase, OpenTofu generates a detailed execution plan outlining its specific infrastructure actions.
+Once you approve the execution plan, OpenTofu implements the proposed changes by performing the necessary operations in the correct sequence.
+
+
+OpenTofu uses providers, which are plugins enabling it to communicate with platforms like cloud services, SaaS applications, and APIs. To use OpenTofu, you must specify 
+the providers your infrastructure needs. These providers are then downloaded and configured to work within your environment. Some may require additional details, such 
+as the region of a cloud service or specific API endpoints, to function properly.
+
+
+Resources in OpenTofu are the fundamental elements that represent the components of your infrastructure. They are the building blocks you define in your configuration 
+files to manage and interact with various services and platforms. Each resource corresponds to a specific object or service provided by cloud providers, SaaS platforms, or other APIs.
+
+
+OpenTofu uses a system called state to keep track of your infrastructure and how it connects to real-world resources. This state helps OpenTofu remember important details about 
+your setup and ensures it works efficiently, especially with larger and more complex systems. It also enables OpenTofu to determine what changes are needed when updating your configurations.
+
+
