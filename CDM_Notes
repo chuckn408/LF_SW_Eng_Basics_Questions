@@ -1,0 +1,50 @@
+It establishes a common understanding of data and trade states, ensuring consistency across the market
+It streamlines communication and operations by providing a unified model everyone can use
+Adopting an adaptable framework allows us to accommodate different products and events while being responsive to new industry requirements
+ and challenges
+
+
+The Common Domain Model (CDM) is a model for financial products, trades in those products, and the lifecycle events of those trades. 
+It is an open source standard that aligns data, systems and processes and is available as code in multiple languages for easy implementation
+ across technologies.
+ 
+First, it provides standardization, acting as a common blueprint for how data is represented and how trade processes are managed, which
+ improves both interoperability and consistency across the industry.
+
+Second, it improves efficiency by promoting process automation and reducing the need for manual intervention, which helps minimize 
+operational inefficiencies.
+
+Third, it enhances transparency by improving the quality of data and ensuring better alignment between regulators and market participants,
+ making it easier to comply with regulatory requirements.
+
+Finally, the CDM enhances interoperability, improving connectivity with counterparties and market infrastructures, which helps to reduce 
+delays in trading operations.
+
+
+CDM is defined using the Rune Domain-Specific Language (DSL) syntax
+
+CDM defines a consistent, composable data model for trades, legal contracts, and events, ensuring interoperability across the entire
+ lifecycle of financial transactions. In addition, it also includes functional logic, such as functions or validation rules, adding 
+ a functional layer to the data model.
+ 
+ 
+regulatory reporting
+trade management
+reference data model
+legal data model
+collateral management
+
+consistency
+reducing redundancy
+facilitating maintenance
+
+
+ Namespaces are a way to organize and categorize different elements and objects within the model. Each namespace is materialized
+ into a file containing the definitions of different objects following a logical grouping of model artifacts. The files are organized
+ within folders, creating a directory structure that arranges namespaces. 
+ 
+ 
+  TradeState provides a record of the current status of a transaction agreement.
+  
+   The Trade is crucial because it captures the transaction that occurred within the event.
+   
