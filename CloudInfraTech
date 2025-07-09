@@ -1,0 +1,56 @@
+Running multiple services in a container is an example of microservices.
+ False 
+
+KVM allows for processor emulation.
+ False 
+ 
+Which of the following are CNCF projects?
+a. Envoy
+b. Istio
+c. Linkerd
+d. Nginx
+
+Which of the Linux kernel features help us achieve container isolation?
+Namespaces
+
+Docker volume stores content using Union filesystems.
+ False 
+ 
+Which of the following technologies are supported by Vagrant?
+ All of the above 
+
+Which of the following provides vendor-neutral APIs to collect tracing information of applications?
+ OpenTelemetry 
+
+Which tool can be used to build virtual machine images?
+Packer
+
+Which of the following is an Amazon Web Services serverless computing service?
+ AWS Lambda 
+ 
+OpenStack Magnum provisions container orchestrators, such as Kubernetes and Swarm on physical or virtual systems.
+ True 
+ 
+Docker Swarm mode may not be enabled from the Docker Engine installed by Docker Desktop.
+ False 
+ 
+Which of the following projects uses containers for serverless functions?
+ All of the above 
+ 
+ A container can be attached to two different networks.
+  True 
+
+Physical resources must exist somewhere to support cloud computing.
+ True 
+ 
+ What does RADOS gateway provide in Ceph?
+ REST API interface for Ceph 
+ 
+What planes are defined in Software-Defined Networking?
+a. Data Plane
+b. Control Plane
+c. Management Plane
+d. Store Plane
+
+What is Project Moby?
+ A tool used to create container platforms like Docker 
