@@ -1,0 +1,47 @@
+What is the main difference between DevOps and MLOps?
+MLOps incorporates machine learning lifecycle management, including model training and deployment, which requires additional considerations
+beyond traditional DevOps.
+###############################################################################################################################################
+Given the challenges above, which combination of tools and strategies would best address the needs of your healthcare analytics project?
+ Implement Volcano for batch job scheduling, use KServe for model serving, and manage model updates through Kubeflow Pipelines. 
+###############################################################################################################################################
+True or False? Contributions are crucial for the accessibility, usability, and overall health of open source projects.
+ True 
+###############################################################################################################################################
+What differentiates integrated open source from the open core model?
+ It integrates multiple open source projects using open source components, including integration mechanisms. 
+###############################################################################################################################################
+Which feature best describes the value that Kubeflow Pipelines add to the machine learning life cycle?
+ Enabling sequential task execution, where outputs from one task can be used as inputs to another, thus automating the model training and 
+ deployment process. 
+###############################################################################################################################################
+True or False? Determinism in machine learning models refers to the model's ability to predict future trends accurately.
+ False 
+###############################################################################################################################################
+What is the primary purpose of a model in machine learning?
+ To respond with a prediction based on learned patterns 
+###############################################################################################################################################
+Kubeflow notebooks are described as a "lab-as-a-service". What does this term imply?
+ They provide on-demand resources and environments for data science teams. 
+###############################################################################################################################################
+True or False? Adversarial AI involves intentionally serving data designed to confuse a model and force it to make incorrect decisions.
+ True 
+###############################################################################################################################################
+True or False? For effective model deployment, machine learning teams, regardless of size or need, should adopt a full suite of machine 
+learning tools from the beginning of a project.
+ False 
+###############################################################################################################################################
+Considering your understanding of MLOps practices, which immediate action aligns best with MLOps principles to address these challenges 
+effectively?
+Implement continuous integration and deployment pipelines for the model, incorporating automated retraining with new data and performance 
+monitoring.
+###############################################################################################################################################
+True or False? Hyperparameter tuning involves adjusting the model parameters that are learned during the training process to improve performance.
+ False 
+###############################################################################################################################################
+True or False? Kubeflow's primary mission has always been to provide a comprehensive and opinionated machine learning platform with little 
+emphasis on flexibility and tool choice.
+ False 
+###############################################################################################################################################
+Which of the following is true about Katib's support for Neural Architecture Search (NAS)?
+ It supports Efficient Neural Architecture Search (ENAS) and Differentiable Architecture Search (DARTS) as alpha features. 
