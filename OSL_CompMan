@@ -1,0 +1,21 @@
+What are the benefits of maintaining a good community relationship?
+ You can better assess how to comply with the open source license requirements, and have a better two-way communication with regard to 
+contribution and use of the open source
+###########################################################################################################################################
+What kind of information should you collect for an open source review?
+The package name, version, download URL, license, description and intended use in your product 
+###########################################################################################################################################
+Name some important steps in a compliance process. Select all answers that apply.
+all
+###########################################################################################################################################
+What additional information is important when reviewing an open source component from a third-party?
+no additional
+###########################################################################################################################################
+What should you do if you have a question about using open source?
+Initiate an open source review process or contact the open source review team 
+###########################################################################################################################################
+What information helps identify who is licensing the software?
+Copyright notices, attribution, and source code 
+###########################################################################################################################################
+What risks should you address with software supplied to you that you use and incorporate into your products and solutions?
+All of the above 
