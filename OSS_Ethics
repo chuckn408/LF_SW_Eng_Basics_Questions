@@ -15,107 +15,69 @@ So what has gone wrong here from an ethical perspective? Determining this as wel
 source software in the real world.
 Imagine that another developer, “Good-Developer-Gary”, had intended to use the open source software designed by Asar to build his own chat-bat to help users navigate an otherwise complicated banking website. Gary, however, unlike Warda, caught the ethical 
 issue with the design that Divya had initially overlooked. What ought Gary to do in this case?
-    a. Provide feedback to Asar about this so that they may be aware of the issue and work on resolving it
-    b. Refrain from using Asar’s open source software and find another one that doesn’t have this issue
-    c. Use Asar’s open source software as long as Gary believes the risk of harm that may result from this issue is low
-    d. Publicly shame Asar for this error so that other software developers do not overlook any issues similar to this in the future
+a. Provide feedback to Asar about this so that they may be aware of the issue and work on resolving it
 ##################################################################################################################################################################################################################################################################################
 How might the Asar team go about monitoring their conversational AI?
-    a. By devising a list of what needs monitoring (e.g. data, changes in society, etc.) with regard to wellbeing, fairness, and privacy
-    b. By making updates to the system itself, if necessary
-    c. By making updates to the safeguards, evaluation, and/or action plan, if necessary
     d. All of the above
 ##################################################################################################################################################################################################################################################################################
 True or false: There’s a single clear and widely agreed-upon metric for evaluating fairness that Asar should have followed.
-    a. True
     b. False
 ##################################################################################################################################################################################################################################################################################
 How might Mina, Darnell, Divya, and Warda set (or check) safeguards for privacy for the conversational AI? (Select all answers that apply)
     a. By considering what the end-users of the conversational AI will be comfortable sharing
     b. By designing a consent plan
-    c. By ensuring that the data collected is accurate and fair
     d. By understanding what the potential privacy threats may be for a conversational AI systems
     e. By considering whether the data that they will be collecting is necessary for achieving the purpose and goals of the product
 ##################################################################################################################################################################################################################################################################################
 Imagine the conversation AI that Warda trained had only been trained on the issues of non-disabled, cis-gendered, heterosexual Caucasian users and had not been trained to deal with, for instance, various forms of discrimination faced by individuals
 that fall outside of this group, which as it turns out, is the cause behind a number of the app’s actual users’ mental health issues. This would be a failure to account for which of the following?
     a. Fairness
-    b. Privacy
-    c. Wellbeing
 ##################################################################################################################################################################################################################################################################################
 Imagine if a pharmaceutical company offered to pay Warda a large sum of money in exchange for the information she has collected on the users using her app. The pharmaceutical company claims that this information will allow them to better reach 
 their appropriate target audience so that they may advertise a particular drug to them. Should Warda accept this offer?
-    a. Yes. After all, the drug is intended to help treat patients with mental health issues. This deal benefits everyone - it benefits Warda, the pharmaceutical company, and the users of the app
-    b. Yes. The users, by providing their information to the app, have given Warda full permission to use it as she pleases. She owns the data and can sell it if she wishes
     c. No. This would be failing to account for privacy
-    d. No. This would be failing to account for fairness
-    e. No. This would be failing to account for wellbeing 
 ##################################################################################################################################################################################################################################################################################
 How might Asar protect against ethical drift with regard to privacy? (Select all answers that apply)
     a. By monitoring user consent and ensuring that users’ privacy is protected despite any changes that have been made since the product was deployed
     b. By monitoring privacy techniques and checking for any data breaches that may compromise users’ privacy
-    c. By monitoring data to ensure that it’s accurate and representative of the user base
-    d. By monitoring the long-term wellbeing of the users
 ##################################################################################################################################################################################################################################################################################
 What conditions of moral responsibility did our characters have to meet in order to be deemed, to some extent, responsible for the error that played a role in Harinder’s decision to end his life? (Select all answers that apply)
-    a. The knowledge condition (awareness of the potential harms, their consequences, and alternatives)
-    b. The freedom condition (ability to influence the outcome)
-    c. The physical cause condition (physically causing an event to occur)
-    d. The malicious intention condition (intending for a negative event to occur)
-    e. The causal contribution condition (there’s a causal relationship between the actor’s actions and the outcome)
+a. The knowledge condition (awareness of the potential harms, their consequences, and alternatives)
+b. The freedom condition (ability to influence the outcome)
+e. The causal contribution condition (there’s a causal relationship between the actor’s actions and the outcome)
 ##################################################################################################################################################################################################################################################################################
 The failure to account for which of the following resulted in the error that caused Harinder’s decision to end his life?
-    a. Fairness
-    b. Privacy
     c. Wellbeing
 ##################################################################################################################################################################################################################################################################################
 True or false: In evaluating the conversational AI, Mina, Darnell, and Divya should have collaborated with the community of developers.
     a. True. Wellbeing, fairness, and privacy don’t have just one method for evaluation where the conversational AI is concerned. Input from other members would have been beneficial to the evaluation process
-    b. False. Acquiring input from the community of developers could have resulted in receiving mixed information and consequently slowing down the evaluation process 
 ##################################################################################################################################################################################################################################################################################
 What may be the purpose of Asar’s continuous monitoring of their conversational AI software after it’s published? (Select all answers that apply)
-    a. To guard against ethical drift
-    b. To account for changes in the clients’ needs
-    c. To account for societal changes
-    d. To account for changes in ethical standards
-    e. To account for new information coming to light
+a. To guard against ethical drift
+b. To account for changes in the clients’ needs
+c. To account for societal changes
+d. To account for changes in ethical standards
+e. To account for new information coming to light
 ##################################################################################################################################################################################################################################################################################
 Your action plan for wellbeing should take into account:
-    a. Immediate or short-term wellbeing
-    b. Long-term wellbeing
-    c. Both long-term and short-term wellbeing, but if there’s conflict, then short-term wellbeing should take precedence
-    d. Both long-term and short-term wellbeing, but if there’s conflict, then long-term wellbeing should take precedence
     e. Both long-term and short-term wellbeing, and if there’s conflict, the conflict must be resolved to satisfy both. If either must be sacrificed for the other and there’s no option to mitigate the harm, then the goals and objectives of the product
 must be reconsidered
 ##################################################################################################################################################################################################################################################################################
 Assuming Asar’s team, upon evaluation, had become aware that their conversational AI was likely to exploit client vulnerabilities. How might they have proceeded? (Select all answers that apply)
     a. By detecting the source of the problem and finding that this was due to the code not being altered after deciding against Mina’s initial plan
-    b. By refraining from taking any action out of fear of making the problem worse
     c. By devising a plan for resolving this issue
-    d. By informing the developers who intend on using their open source product, so that they may be aware of this information and proceed as they wish (it’s the open source user’s responsibility now)
 ##################################################################################################################################################################################################################################################################################
 What’s the main question that the developers of the conversational AI ought to be asking when evaluating the privacy of their system?
     a. Whether the users that will be sharing personal information with the chatbots will have the personal and sensitive information that they share with the chatbots protected
-    b. How much benefit leaking users’ private information will yield and to what extent it will be worth it to sacrifice users’ privacy
-    c. Whether a given amount of monetary compensation is sufficient for releasing users’ confidential information
-    d. All of the above 
 ##################################################################################################################################################################################################################################################################################
 Assuming the Asar team was not aware of any ethical issues prior to publishing their work, is it reasonable to expect Mina, Divya, and Darnell to ever become aware of the issue with their conversational AI?
     a. Yes. A designer’s work is not done once their work is published. They have to continue being receptive to feedback from the developers using their open source product. If they do this properly, they will be made aware of this and other ethical 
 issues by other members of the community
-    b. No. After publishing their work, the Asar team is longer responsible for what other developers do with it or what ethical consequences may stem from it 
-##################################################################################################################################################################################################################################################################################
-Divya and Darnell convincing Mina not to set defaults that would make it easier to exploit users’ vulnerabilities was an attempt to guard against:
-    a. Legal issues down the road
-    b. Ethical drift
-    c. Ethical debt
-    d. Ethical imbalance 
 ##################################################################################################################################################################################################################################################################################
 What steps should Warda have taken to evaluate Asar’s conversational AI after intending to use it to program a mental health adviser? (Select all answers that apply)
     a. Check for wellbeing, privacy, and fairness again prior to building on it in order to ensure that Mina, Divya, and Darnell didn’t overlook anything
     b. Adapt the evaluation to her own product, identifying any new evaluations that need to be added to the list
     c. Provide feedback to Asar in the case that she comes across any ethical concerns
-    d. Nothing. It’s Mina, Divya, and Darnell’s job to evaluate the software prior to publishing it
 ##################################################################################################################################################################################################################################################################################
 At which stages should safeguards have been placed/checked for the open source conversational AI? (Select all answers that apply)
     a. At the initial stage, when setting objectives and goals for the system
@@ -127,18 +89,14 @@ At which stages should safeguards have been placed/checked for the open source c
 Assuming that upon evaluation, Asar’s team found that the conversational AI had a bias: the chatbox was providing different advice based on the language style that the user had used to communicate with it (this language style often being tied to the 
 ethnic group that a user belongs to). How might Asar proceed? (Select all answers that apply)
     a. By checking the data
-    b. Accepting that different language styles indicate that the users have different needs and, thus, require different advice from the chatbot
-    c. By checking the algorithm
-    d. By checking their own biases as the developer
+   c. By checking the algorithm
+   d. By checking their own biases as the developer
 ##################################################################################################################################################################################################################################################################################
 Which character(s) were required to account for ethics prior to making decisions about the technology? (Select all answers that apply)
     a. Mina, the product manager behind the open source product
     b. Divya and Darnell, the developers of the open source product
     c. Warda, the programming whiz, the user of the open source product
-    d. Harinder, the end-user of the app that the open source product was used to create
 ##################################################################################################################################################################################################################################################################################
 Assuming Warda’s plan of using Asar’s software to develop a mental health chatbot requires users’ vulnerabilities to be known (and thus, risk being potentially exploited). As we’ve seen, this potential exploitation of vulnerabilities results in 
 ethical issues that must be avoided, however, to avoid them would require the system to be a much less effective mental health adviser. What might be an appropriate way to proceed?
-    a. Go ahead with the product and risk exploiting users’ vulnerabilities if the benefits to many justify the potential harms to a few
-    b. Go ahead with the product as long as the legal standards are met
-    c. Reconsider the goals and objectives of the product
+c. Reconsider the goals and objectives of the product
