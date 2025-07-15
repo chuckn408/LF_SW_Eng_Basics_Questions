@@ -1,0 +1,76 @@
+True or False? Computer vision models identify objects in an image the same way humans do.
+    a.    True
+    b.    False
+##########################################################################################################################################################
+True or False? A high quality, state-of-the-art, complex enough model can compensate for bad quality data.
+    a.    True
+    b.    False
+##########################################################################################################################################################
+Select all that apply. Which types of data can be searched?
+    a. Structured data
+    b. Semi-structured data
+    c. Unstructured data
+##########################################################################################################################################################
+If a model is given a "wrong" input, does it make a prediction for it?
+    a.    No, it knows the input is wrong
+    b.    Yes, it doesn't know the input is wrong
+##########################################################################################################################################################
+Select all that apply. Monitoring deployed models helps you detect ___________.
+    a. Concept drift
+    b. Data drift
+    c. Domain drift
+    d. Adversarial attacks
+##########################################################################################################################################################
+Select all that apply. What enabled the latest developments in AI?
+    a.    Big Data
+    b.    CPUs
+    c.    Deep Learning
+    d.    GPUs
+    e.    Machine Learning
+    f.    Data Science
+##########################################################################################################################################################
+Accuracy is a good evaluation metric _________.
+    a.    Always
+    b.    Only if the labels are balanced
+    c.    Never
+    d.    Only if the labels are imbalanced
+##########################################################################################################################################################
+True or False? Data labeling may be an expensive, time-consuming, and error-prone activity.
+    a.    True
+    b.    False
+##########################################################################################################################################################
+True or False? A model is never truly finished.
+    a.    True
+    b.    False
+##########################################################################################################################################################
+Select all that apply. Which of the following are examples of concept drift?
+    a. User base demographics changes over time
+    b. Model trained on data from the US is deployed for Latin American users
+    c. Changes in mobility and shopping patterns due to COVID-19
+##########################################################################################################################################################
+Select all that apply. White-box models are _______.
+    a. Analytical
+    b. Data-driven
+    c. Highly performant
+    d. Built from first principles
+    e. More interpretable
+##########################################################################################################################################################
+True or False? A simpler, interpretable model can be used to approximate a black-box model.
+    a.    True
+    b.    False
+##########################################################################################################################################################
+Select all that apply. Typical use cases of AI include ___________.
+    a. Pricing optimization
+    b. Predictive maintenance
+    c. Customer segmentation
+    d. Demand and sales forecasting
+    e. Risk analytics
+##########################################################################################################################################################
+Data and desired output go in, and rules come out. Which of the following does this apply to?
+    a.    Software 1.0
+    b.    Software 2.0
+##########################################################################################################################################################
+What does GIGO mean?
+    a.    Get In, Get Out
+    b.    Garbage In, Garbage Out
+    c.    Gradient Independent Generic Optimization
